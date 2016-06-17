@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:example="http://schemas.android.com/apk/res/com.example.hm4_lewis">
+
+        android:title="Settings" >
+     
+    	<Preference 
+    	    android:title="High Score"
+    	    android:summary="Your Score is a number" 
+    	    android:key="key_company_info" />   
+    	<CheckBoxPreference 
+    	    android:title="Play Background Music"
+    	    android:key="prefs_music_enabled"
+    	    android:defaultValue="true" />
+    	<CheckBoxPreference 
+    	    android:title="Play Sound Effects"
+    	    android:key="prefs_sounds_enabled"
+    	    android:defaultValue="true" />
+    	
+ 	   
+</PreferenceScreen> 
